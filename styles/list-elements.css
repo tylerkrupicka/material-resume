@@ -1,0 +1,27 @@
+.card-list-element {
+	margin-top: 20px;
+	min-height: 40px;
+    padding: 10 40 10 40;
+	border-top: 1px solid rgba(0, 0, 0, 0.17);
+    cursor:pointer;
+}
+
+.card-list-title {
+	margin-top: 10px;
+	color: rgba(0, 0, 0, 0.85);
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.card-list-subtitle {
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 300;
+	font-size: 1.1em;
+}
+
+.card-list-text {
+	padding-top: 10px;
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+    display: none;
+}
