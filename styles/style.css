@@ -11,6 +11,11 @@
     font-family: Roboto;
 }
 
+a {
+	color: #1E88E5;
+	text-decoration: none;
+}
+
 #hero {
     padding-right: 15px;
     padding-left: 15px;
@@ -48,4 +53,17 @@
 #subtitle {
     font-weight: 300;
     padding-left: 2px;
+}
+
+#footer {
+	padding-top: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+}
+
+#recognition {
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+	text-align: center;
 }

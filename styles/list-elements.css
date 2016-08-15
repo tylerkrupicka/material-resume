@@ -1,7 +1,7 @@
 .card-list-element {
 	margin-top: 20px;
 	min-height: 40px;
-    padding: 10 40 10 40;
+    padding: 10 40 0 40;
 	border-top: 1px solid rgba(0, 0, 0, 0.17);
     cursor:pointer;
 }
@@ -9,7 +9,7 @@
 .card-list-title {
 	margin-top: 10px;
 	color: rgba(0, 0, 0, 0.85);
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.3em;
 }
 
@@ -23,5 +23,9 @@
 	padding-top: 10px;
 	color: rgba(0, 0, 0, 0.57);
 	font-weight: 400;
-    display: none;
+	opacity: 0;
+}
+
+.card-hidden {
+	display: none;
 }
