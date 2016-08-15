@@ -1,8 +1,10 @@
 $(document).ready(function() {
 	//Setup click listener to list elements
-	$('.card-list-element').on('click', function(e) {
-		expandToggle(this);
-		materialRipple(this, e);
+	$(".card-list-element").on('click', function(e) {
+		if(e.target.className != "card-button"){
+			expandToggle(this);
+			materialRipple(this, e);
+		}
 	});
 });
 
