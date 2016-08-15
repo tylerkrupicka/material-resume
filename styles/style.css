@@ -8,7 +8,7 @@
 * {
 	margin: 0;
 	padding: 0;
-    font-family: Roboto;
+	font-family: Roboto;
 }
 
 a {
@@ -16,43 +16,52 @@ a {
 	text-decoration: none;
 }
 
+b {
+	color: rgba(0, 0, 0, 0.85);
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
 #hero {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    height: 220px;
-    background: #1E88E5;
-    background-size: cover;
-    color: #fff;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 220px;
+	background: #1E88E5;
+	background-size: cover;
+	color: #fff;
 }
 
 #page-wrap {
-    width: 700px;
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -120px;
+	width: 700px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -120px;
 	animation-duration: 1s;
-  	animation-name: slidein;
+	  animation-name: slidein;
 	animation-timing-function: ease-in-out;
+
 }
 
 
 #title-bar{
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 #subtitle {
-    font-weight: 300;
-    padding-left: 2px;
+	font-weight: 300;
+	padding-left: 2px;
 }
 
 #footer {
