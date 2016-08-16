@@ -3,20 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#313f47">
+	<meta name="theme-color" content="{{ color }}">
 	<title>{{ title }}</title>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/script.js"></script>
-	<link rel="icon" type="image/png" href="http://tylerkrupicka.com/images/favicon.png">
+	<link rel="icon" type="image/png" href="{{ favicon }}">
 </head>
 
 <body>
 	<div id="hero">
 			<div id="title-bar">
 				<div>
-					<h1>Tyler Krupicka</h1>
-					<h2 id="subtitle">Engineer &amp; Software Developer</h4>
+					<h1>{{ title }}</h1>
+					<h2 id="subtitle">{{ subtitle }}</h4>
 				</div>
 			</div>
 	</div>
@@ -24,11 +24,7 @@
 	<div id="page-wrap">
 		<div class="card">
 			<div class="card-title">About</div>
-			<div class="card-text">
-				Hello, I'm Tyler. I'm a developer, engineer, and 3D printer enthusiast from Newberg, Oregon.
-				I attend Rochester Institute of Technology, where I study Computer Engieering with a minor in Computer Science.
-				I built this site from scratch; you can see it at material-resume.
-			</div>
+			<div class="card-text">{{ about }}</div>
 		</div>
 
 		<div class="card">

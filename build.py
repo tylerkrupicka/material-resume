@@ -1,23 +1,33 @@
 #!/usr/bin/env python3
+# Material-Resume builder, by Tyler Krupicka
 
 from jinja2 import Environment, FileSystemLoader
 import os, json
 
-# Capture our current directory
-THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+class Builder():
+	def __init__(self):
+		self.this_dir = os.path.dirname(os.path.abspath(__file__))
+		self.environment = Environment(loader=FileSystemLoader(self.this_dir + "/templates"),trim_blocks=True)
+		self.config = {}
 
-def print_html_doc():
-	# Create the jinja2 environment.
-	# Notice the use of trim_blocks, which greatly helps control whitespace.
-	with open("configs/config.json") as config:
-		c = json.load(config)
-	a = {}
-	a.update(c)
-	j2_env = Environment(loader=FileSystemLoader(THIS_DIR + "/templates"),trim_blocks=True)
-	html = j2_env.get_template('template.html').render(a)
-	with open("index.html", "w") as index:
-		index.write(html)
-	print(json.dumps(a, indent=4, sort_keys=True))
+	def load_configs(self):
+		#Main config
+		with open("configs/config.json") as config:
+			data = json.load(config)
+		self.config.update(data)
+		#Education config
+
+	def format_config(self, path, data):
+		with open(path, "w") as config:
+			config.write(json.dumps(a, indent=4, sort_keys=True))
+
+
+	def build_index(self):
+		html = self.environment.get_template('template.html').render(self.config)
+		with open("index.html", "w") as index:
+			index.write(html)
 
 if __name__ == '__main__':
-	print_html_doc()
+	b = Builder()
+	b.load_configs()
+	b.build_index()

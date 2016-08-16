@@ -1,3 +1,7 @@
 {
-	"title": "Tyler Krupicka"
+	"title": "Tyler Krupicka",
+	"color": "#1E88E5",
+	"favicon": "http://tylerkrupicka.com/images/favicon.png",
+	"subtitle": "Engineer &amp; Software Developer",
+	"about": "Hello, I'm Tyler. I'm a developer, engineer, and 3D printer enthusiast from Newberg, Oregon. I attend Rochester Institute of Technology, where I study Computer Engieering with a minor in Computer Science. I built this site from scratch; you can see it at material-resume."
 }
