@@ -14,7 +14,9 @@ class Builder():
 		self.load_config("configs/config.json") #Main config
 		self.load_config("configs/education.json") #Education config
 		self.load_config("configs/employment.json") #Employment config
-		self.load_config("configs/projects.json") #Employment config
+		self.load_config("configs/projects.json") #Project config
+		self.load_config("configs/awards.json") #Awards config
+		self.load_config("configs/activities.json") #Activites config
 
 	def load_config(self, path):
 		with open(path) as config:

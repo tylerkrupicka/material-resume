@@ -1,0 +1,10 @@
+{
+	"awards": [
+		{
+			"title": "RIT Autonomous Drone Challenge",
+			"subtitle": "2nd Place",
+			"dates": "Spring 2015",
+			"text": "Developed an autonomous routine for a Parrot AR Drone using Node.js and OpenCV. My team successfully trained a Haar Classifier in order to have the drone detect Jetson's characters."
+		}
+	]
+}

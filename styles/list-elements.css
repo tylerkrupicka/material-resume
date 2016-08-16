@@ -16,6 +16,10 @@
 	font-size: 1.1em;
 }
 
+.no_select {
+	cursor: default !important;
+}
+
 .card-list-title {
 	margin-top: 10px;
 	color: rgba(0, 0, 0, 0.85);
