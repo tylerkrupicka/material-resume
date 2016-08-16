@@ -42,25 +42,15 @@
 
 		<div class="card">
 			<div class="card-title">Employment</div>
+			{% for job in jobs %}
 			<div class="card-list-element">
-				<div class="card-list-title">Makerbot</div>
-				<div class="card-list-subtitle">Firmware Engineer <br /> 2016 Summer</div>
+				<div class="card-list-title">{{ job.title }}</div>
+				<div class="card-list-subtitle">{{ job.position }} <br /> {{ job.dates }}</div>
 				<div class="card-hidden">
-					<div class="card-list-text">
-						Developed patches for 3D printer firmware, and configured the Linux device tree for different peripheral hardware components.
-					</div>
+					<div class="card-list-text">{{ job.text }}</div>
 				</div>
 			</div>
-			<div class="card-list-element">
-				<div class="card-list-title">Intuit</div>
-				<div class="card-list-subtitle">Software Engineer<br /> 2015 July - December</div>
-				<div class="card-hidden">
-					<div class="card-list-text">
-						Software Engineer on the Technology Exploration team at TurboTax. I worked on technologies involving natural language processing,
-						virtual assistance, support/care, data analysis, and mobile development using a wide variety of programming languages and environments.
-					</div>
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 
 		<div class="card">
