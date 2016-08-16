@@ -11,16 +11,17 @@ class Builder():
 		self.config = {}
 
 	def load_configs(self):
-		#Main config
-		with open("configs/config.json") as config:
+		self.load_config("configs/config.json") #Main config
+		self.load_config("configs/education.json") #Education config
+
+	def load_config(self, path):
+		with open(path) as config:
 			data = json.load(config)
 		self.config.update(data)
-		#Education config
 
-	def format_config(self, path, data):
+	def write_config(self, path, data):
 		with open(path, "w") as config:
-			config.write(json.dumps(a, indent=4, sort_keys=True))
-
+			config.write(json.dumps(data, indent=4, sort_keys=True))
 
 	def build_index(self):
 		html = self.environment.get_template('template.html').render(self.config)
