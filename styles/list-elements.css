@@ -42,8 +42,8 @@
 
 .card-button {
 	color: #1E88E5;
-	width: 50px;
 	padding-top: 15px;
 	font-weight: 600;
-	display: block;
+	display: inline-block;
+	padding-right: 10px;
 }

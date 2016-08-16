@@ -55,23 +55,17 @@
 
 		<div class="card">
 			<div class="card-title">Projects</div>
+			{% for project in projects %}
 			<div class="card-list-element small">
-				<b>Material-Resume:</b> Material Design static site generator used to build this site.
+				<b>{{ project.title }}:</b> {{ project.description }}
 				<div class="card-hidden">
-					<div class="card-list-text">
-						Developed patches for 3D printer firmware, and configured the Linux device tree for different peripheral hardware components.
-					</div>
+					<div class="card-list-text">{{ project.text }}</div>
+					{% for button in project.buttons %}
+					<a class="card-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+					{% endfor %}
 				</div>
 			</div>
-			<div class="card-list-element small">
-				<b>Social:</b> Social media mobile application and webserver.
-				<div class="card-hidden">
-					<div class="card-list-text">
-						Developed patches for 3D printer firmware, and configured the Linux device tree for different peripheral hardware components.
-					</div>
-				</div>
-                <a class="card-button" href="https://github.com/tylerkrupicka/material-resume" target="_blank">GITHUB</a>
-			</div>
+			{% endfor %}
 		</div>
 
 		<div class="card">

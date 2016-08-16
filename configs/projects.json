@@ -1,0 +1,19 @@
+{
+	"projects": [
+		{
+			"title": "GIF Dance Party Extension",
+			"description": "A Chrome Extension inspired by FuzzyWobble's GIF Dance Party.",
+			"text": "I co-wrote the GIF Dance Party extension, which uses jQuery to create most of the user interface. The extension lets you add and rearrange dancing gifs on any webpage and add background music. I also added the functionality to stream background music from YouTube.",
+			"buttons": [
+				{
+					"text": "GITHUB",
+					"link": "http://github.com/"
+				},
+				{
+					"text": "CHROME",
+					"link": "http://google.com"
+				}
+			]
+		}
+	]
+}
