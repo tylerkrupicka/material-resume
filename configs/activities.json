@@ -1,17 +1,8 @@
 {
 	"activities": [
 		{
-			"title": "RIT Computer Science House",
-			"description": "Active member during my first years at RIT."
-		},
-		{
-			"title": "FIRST Tech Challenge Robotics",
-			"description": "Captained my high school team for three years. Two appearances at the world championships."
-		},
-		{
-			"title": "Boy Scouts of America",
-			"description": "Earned the rank of Eagle while in high school."
+			"title": "Using",
+			"description": "This static site generator. That is all."
 		}
-
 	]
 }

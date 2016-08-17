@@ -1,22 +1,16 @@
 {
 	"jobs": [
 		{
-			"title": "Makerbot",
-			"position": "Firmware Engineer",
-			"dates": "2016 Summer",
-			"text": "Developed patches for 3D printer firmware, and configured the Linux device tree for different peripheral hardware components."
+			"title": "Best Buy",
+			"position": "Computer Technician",
+			"dates": "2016",
+			"text": "I don't actually work there, I just give people awful computer advice."
 		},
 		{
-			"title": "Intuit",
-			"position": "Software Engineer",
-			"dates": "2015 July - December",
-			"text": "Software Engineer on the Technology Exploration team at TurboTax. I worked on technologies involving natural language processing, virtual assistance, support/care, data analysis, and mobile development using a wide variety of programming languages and environments."
-		},
-		{
-			"title": "RIT CIAS",
-			"position": "Lab Technician",
-			"dates": "2014 - Present",
-			"text": "I work in the IT department for the College of Imaging Arts and Sciences at RIT while I'm at school. The position involves maintaining labs and providing technical support."
+			"title": "Somewhere",
+			"position": "Sandwich Artisan",
+			"dates": "2015",
+			"text": "I ate there so much that they hired me."
 		}
 	]
 }

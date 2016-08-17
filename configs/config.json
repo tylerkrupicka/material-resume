@@ -1,22 +1,14 @@
 {
-    "about": "Hello, I'm Tyler. I'm a developer, engineer, and 3D printer enthusiast from Newberg, Oregon. I attend Rochester Institute of Technology, where I study Computer Engieering with a minor in Computer Science. I built this site from scratch; you can see it at material-resume.",
-    "color": "#039BE5",
-	"ripple_rgb": "3, 155, 229",
-    "favicon": "http://tylerkrupicka.com/images/favicon.png",
-    "subtitle": "Engineer &amp; Software Developer",
-    "title": "Tyler Krupicka",
+    "about": "This static site generator helps you make a material-design themed resume website.",
+    "color": "#673AB7",
+	"ripple_rgb": "033, 58, 183",
+    "favicon": "favicon.png",
+    "subtitle": "Static Site Generator",
+    "title": "Material Resume",
 	"icons": [
 		{
 			"id": "circlegithubalt",
-			"url": "http://github.com/tylerkrupicka"
-		},
-		{
-			"id": "circleemail",
-			"url": "mailto:site@tylerkrupicka.com"
-		},
-		{
-			"id": "circlelinkedin",
-			"url": "http://linkedin.com/in/tylerkrupicka"
+			"url": "http://github.com/tylerkrupicka/material-resume"
 		}
 	]
 }

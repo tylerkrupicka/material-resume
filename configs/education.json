@@ -1,9 +1,9 @@
 {
 	"schools": [
 		{
-			"title": "Rochester Institute of Technology",
-			"subtitle": "Computer Engineering &amp; CS Minor <br />2013 - Present",
-			"text": "Notable Coursework: Computer Science 1-3, Digital Systems Design 1-2, Natural Language Processing, Assembly Language, Software Engineering, Analysis of Algorithms, Computer Architecure, Applied Programming, Statistics. 3.7 GPA."
+			"title": "A School",
+			"subtitle": "English Major",
+			"text": "In my spare time I used this static site generator."
 		}
 	]
 }
