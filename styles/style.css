@@ -13,7 +13,6 @@
 }
 
 a {
-	color: #1E88E5;
 	text-decoration: none;
 }
 
@@ -30,7 +29,6 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	height: 220px;
-	background: #1E88E5;
 	background-size: cover;
 	color: #fff;
 }

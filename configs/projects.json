@@ -84,6 +84,13 @@
 			"buttons": []
 		},
 		{
+			"title": "Glados Alexa Skill",
+			"description": "I wrote an Amazon Alexa skill that responded with Glados quotes.",
+			"text": "I created a simple Alexa skill as a personal project after gaining some experience with the platform at work. The skill ran in an AWS Lambda function and would respond with Glados quotes when prompted.",
+			"uses": "AWS, Alexa Skills Kit, Node.js",
+			"buttons": []
+		},
+		{
 			"title": "Thomas the Timelapse Engine",
 			"description": "Turning a Brio toy train in to a pulsing GoPro timelpase rig.",
 			"text": "I dissasembled a Brio Thomas the Tank Engine toy train and added control from an Arduino and some 3D printed parts. By doubling the trains input voltage, I was able to get the train to move small distances after each photo and make a semi-stable timelapse. I took a timelapse of a 3D print with the train taking a circular timelapse.",

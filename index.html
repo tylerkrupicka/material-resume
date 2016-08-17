@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#1E88E5">
+	<meta name="theme-color" content="#039BE5">
 	<title>Tyler Krupicka</title>
+	<style>
+		a {color:#039BE5;}
+		.ripple {background: rgba(3, 155, 229, 0.4);}
+	</style>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/script.js"></script>
@@ -12,7 +16,7 @@
 </head>
 
 <body>
-	<div id="hero">
+	<div style="background: #039BE5;" id="hero">
 			<div id="title-bar">
 				<div>
 					<h1>Tyler Krupicka</h1>
@@ -69,6 +73,22 @@
 					</div>
 
 		<div class="card">
+			<div class="card-title">Experience</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Proficent:</b> Python, Javacript, Go, C, Java, HTML, CSS, ARM Assembly, VHDL.
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Some Experience:</b> Natural Language Processing, Android Development, Node.js, Angular.js, PHP.
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Frameworks &amp; Libraries:</b> Django, Flask, Ionic, NLTK, Gensim, Redis, ElasticSearch, SQL, Socket.io, OpenCV, Tweepy, Alexa Skills Kit.
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Tools:</b> Linux, Git, SVN, CVS, Atom, Xilinx ISE, Keil uVision, Autodesk Inventor.
+			</div>
+		</div>
+
+		<div class="card">
 			<div class="card-title">Projects</div>
 						<div class="card-list-element small">
 				<b>GIF Dance Party Extension:</b> A Chrome Extension inspired by FuzzyWobble's popular website.
@@ -78,8 +98,8 @@
 					<p>
 						<b>Uses: </b> Javascript, JQuery, HTML, CSS
 					</p>
-															<a class="card-button" href="https://github.com/jlyneu/GIF-Dance-Party-Extension" target="_blank">GITHUB</a>
-										<a class="card-button" href="https://chrome.google.com/webstore/detail/gif-dance-party-extension/ihcnbadcckafkjidbccichfdjbahnfnn" target="_blank">CHROME</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/jlyneu/GIF-Dance-Party-Extension" target="_blank">GITHUB</a>
+										<a  style="color: #039BE5"class="card-button" href="https://chrome.google.com/webstore/detail/gif-dance-party-extension/ihcnbadcckafkjidbccichfdjbahnfnn" target="_blank">CHROME</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -90,7 +110,7 @@
 					<p>
 						<b>Uses: </b> Python, HTML, CSS, Javascript, JQuery
 					</p>
-															<a class="card-button" href="http://github.com/tylerkrupicka/material-resume" target="_blank">GITHUB</a>
+															<a  style="color: #039BE5"class="card-button" href="http://github.com/tylerkrupicka/material-resume" target="_blank">GITHUB</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -111,7 +131,7 @@
 					<p>
 						<b>Uses: </b> Python
 					</p>
-															<a class="card-button" href="https://github.com/tylerkrupicka/cookie-cutter" target="_blank">GITHUB</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/tylerkrupicka/cookie-cutter" target="_blank">GITHUB</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -122,7 +142,7 @@
 					<p>
 						<b>Uses: </b> Android, Java
 					</p>
-															<a class="card-button" href="https://github.com/afollestad/material-camera/pull/70" target="_blank">GITHUB</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/afollestad/material-camera/pull/70" target="_blank">GITHUB</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -133,8 +153,8 @@
 					<p>
 						<b>Uses: </b> Javascript, JQuery
 					</p>
-															<a class="card-button" href="https://github.com/tylerkrupicka/valleygirl" target="_blank">GITHUB</a>
-										<a class="card-button" href="https://chrome.google.com/webstore/detail/valley-girl/aaobhafeeoijpgnohafhbpjldeoldpin" target="_blank">CHROME</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/tylerkrupicka/valleygirl" target="_blank">GITHUB</a>
+										<a  style="color: #039BE5"class="card-button" href="https://chrome.google.com/webstore/detail/valley-girl/aaobhafeeoijpgnohafhbpjldeoldpin" target="_blank">CHROME</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -148,6 +168,16 @@
 														</div>
 			</div>
 						<div class="card-list-element small">
+				<b>Glados Alexa Skill:</b> I wrote an Amazon Alexa skill that responded with Glados quotes.
+				<div class="card-hidden">
+					<div class="card-list-text">I created a simple Alexa skill as a personal project after gaining some experience with the platform at work. The skill ran in an AWS Lambda function and would respond with Glados quotes when prompted.</div>
+										<br />
+					<p>
+						<b>Uses: </b> AWS, Alexa Skills Kit, Node.js
+					</p>
+														</div>
+			</div>
+						<div class="card-list-element small">
 				<b>Thomas the Timelapse Engine:</b> Turning a Brio toy train in to a pulsing GoPro timelpase rig.
 				<div class="card-hidden">
 					<div class="card-list-text">I dissasembled a Brio Thomas the Tank Engine toy train and added control from an Arduino and some 3D printed parts. By doubling the trains input voltage, I was able to get the train to move small distances after each photo and make a semi-stable timelapse. I took a timelapse of a 3D print with the train taking a circular timelapse.</div>
@@ -155,7 +185,7 @@
 					<p>
 						<b>Uses: </b> Arduino, 3D printing
 					</p>
-															<a class="card-button" href="http://www.thingiverse.com/thing:993541" target="_blank">Thingiverse</a>
+															<a  style="color: #039BE5"class="card-button" href="http://www.thingiverse.com/thing:993541" target="_blank">Thingiverse</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -166,7 +196,7 @@
 					<p>
 						<b>Uses: </b> Python, HTML, CSS
 					</p>
-															<a class="card-button" href="https://github.com/tylerkrupicka/staticky" target="_blank">GITHUB</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/tylerkrupicka/staticky" target="_blank">GITHUB</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -177,9 +207,9 @@
 					<p>
 						<b>Uses: </b> Python, NLTK, Django, Tweepy
 					</p>
-															<a class="card-button" href="https://github.com/tylerkrupicka/DefiantLee" target="_blank">GITHUB</a>
-										<a class="card-button" href="https://twitter.com/defiantlee_" target="_blank">TWITTER</a>
-										<a class="card-button" href="http://tylerkrupicka.com/defiantly" target="_blank">SITE</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/tylerkrupicka/DefiantLee" target="_blank">GITHUB</a>
+										<a  style="color: #039BE5"class="card-button" href="https://twitter.com/defiantlee_" target="_blank">TWITTER</a>
+										<a  style="color: #039BE5"class="card-button" href="http://tylerkrupicka.com/defiantly" target="_blank">SITE</a>
 									</div>
 			</div>
 						<div class="card-list-element small">
@@ -190,7 +220,7 @@
 					<p>
 						<b>Uses: </b> Python, NLTK
 					</p>
-															<a class="card-button" href="https://github.com/Nolski/playvis" target="_blank">GITHUB</a>
+															<a  style="color: #039BE5"class="card-button" href="https://github.com/Nolski/playvis" target="_blank">GITHUB</a>
 									</div>
 			</div>
 					</div>

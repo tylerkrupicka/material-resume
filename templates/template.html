@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="{{ color }}">
 	<title>{{ title }}</title>
+	<style>
+		a {color:{{ color }};}
+		.ripple {background: rgba({{ ripple_rgb }}, 0.4);}
+	</style>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/script.js"></script>
@@ -12,7 +16,7 @@
 </head>
 
 <body>
-	<div id="hero">
+	<div style="background: {{ color }};" id="hero">
 			<div id="title-bar">
 				<div>
 					<h1>{{ title }}</h1>
@@ -59,6 +63,22 @@
 		</div>
 
 		<div class="card">
+			<div class="card-title">Experience</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Proficent:</b> {{ experiences.proficient }}
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Some Experience:</b> {{ experiences.some }}
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Frameworks &amp; Libraries:</b> {{ experiences.frameworks }}
+			</div>
+			<div class="card-list-element no_select small">
+				<b class="no_select">Tools:</b> {{ experiences.tools }}
+			</div>
+		</div>
+
+		<div class="card">
 			<div class="card-title">Projects</div>
 			{% for project in projects %}
 			<div class="card-list-element small">
@@ -72,7 +92,7 @@
 					</p>
 					{% endif %}
 					{% for button in project.buttons %}
-					<a class="card-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+					<a  style="color: {{ color }}"class="card-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
 					{% endfor %}
 				</div>
 			</div>

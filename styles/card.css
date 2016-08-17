@@ -25,3 +25,10 @@
 	font-weight: 400;
 	padding: 0 40 20 40;
 }
+
+.card-button {
+	padding-top: 15px;
+	font-weight: 600;
+	display: inline-block;
+	padding-right: 10px;
+}

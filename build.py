@@ -17,6 +17,7 @@ class Builder():
 		self.load_config("configs/projects.json") #Project config
 		self.load_config("configs/awards.json") #Awards config
 		self.load_config("configs/activities.json") #Activites config
+		self.load_config("configs/experience.json") #Experience config
 
 	def load_config(self, path):
 		with open(path) as config:
