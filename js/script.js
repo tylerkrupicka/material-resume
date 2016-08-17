@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	//Setup click listener to list elements
 	$(".card-list-element").on('click', function(e) {
-		if(e.target.className != "card-button" && e.target.className.indexOf("no_expand") != -1){
+		if(e.target.className != "card-button" && e.target.className.indexOf("no_select") == -1){
 			expandToggle(this);
 			materialRipple(this, e);
 		}
