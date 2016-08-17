@@ -1,0 +1,16 @@
+{
+	"jobs": [
+		{
+			"title": "Best Buy",
+			"position": "Computer Technician",
+			"dates": "2016",
+			"text": "I don't actually work there, I just give people awful computer advice."
+		},
+		{
+			"title": "Somewhere",
+			"position": "Sandwich Artisan",
+			"dates": "2015",
+			"text": "I ate there so much that they hired me."
+		}
+	]
+}

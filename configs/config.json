@@ -1,0 +1,14 @@
+{
+    "about": "This static site generator helps you make a material-design themed resume website.",
+    "color": "#673AB7",
+	"ripple_rgb": "033, 58, 183",
+    "favicon": "favicon.png",
+    "subtitle": "Static Site Generator",
+    "title": "Material Resume",
+	"icons": [
+		{
+			"id": "circlegithubalt",
+			"url": "http://github.com/tylerkrupicka/material-resume"
+		}
+	]
+}

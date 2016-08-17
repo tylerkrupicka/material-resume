@@ -1,0 +1,45 @@
+.card-list-element {
+	min-height: 40px;
+	padding: 10 40 20 40;
+	border-top: 1px solid rgba(0, 0, 0, 0.17);
+	cursor:pointer;
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+	position: relative;
+	overflow: hidden;
+}
+
+.card-list-element.small {
+	min-height: 20px;
+	padding: 20 40 20 40;
+	cursor:pointer;
+	font-size: 1.1em;
+}
+
+.no_select {
+	cursor: default !important;
+}
+
+.card-list-title {
+	margin-top: 10px;
+	color: rgba(0, 0, 0, 0.85);
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.card-list-subtitle {
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 300;
+	font-size: 1.1em;
+}
+
+.card-list-text {
+	padding-top: 10px;
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+	opacity: 0;
+}
+
+.card-hidden {
+	display: none;
+}

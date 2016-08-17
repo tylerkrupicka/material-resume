@@ -1,0 +1,9 @@
+{
+	"schools": [
+		{
+			"title": "A School",
+			"subtitle": "English Major",
+			"text": "In my spare time I used this static site generator."
+		}
+	]
+}

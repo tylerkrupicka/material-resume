@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import 'card.css';
+@import 'animation.css';
+@import 'list-elements.css';
+@import 'monosocialiconsfont.css';
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;;
+}
+
+a {
+	text-decoration: none;
+}
+
+b {
+	color: rgba(0, 0, 0, 0.85);
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+#hero {
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 220px;
+	background-size: cover;
+	color: #fff;
+}
+
+#page-wrap {
+	width: 700px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+	animation-duration: 1s;
+	  animation-name: slidein;
+	animation-timing-function: ease-in-out;
+
+}
+
+
+#title-bar{
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#subtitle {
+	font-weight: 300;
+	padding-left: 2px;
+}
+
+#footer {
+	padding-top: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+}
+
+#recognition {
+	color: rgba(0, 0, 0, 0.57);
+	font-weight: 400;
+	text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+	#page-wrap {
+		width: 98%;
+	}
+	#hero{
+		height: 250px;
+	}
+	#title-bar {
+		width: 98%;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.card:hover {
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+}
