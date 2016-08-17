@@ -1,0 +1,8 @@
+{
+	"experiences": {
+			"proficient": "Python, Javacript, Go, C, Java, HTML, CSS, ARM Assembly, VHDL.",
+			"some": "Natural Language Processing, Android Development, Node.js, Angular.js, PHP.",
+			"frameworks": "Django, Flask, Ionic, NLTK, Gensim, Redis, ElasticSearch, SQL, Socket.io, OpenCV, Tweepy, Alexa Skills Kit.",
+			"tools": "Linux, Git, SVN, CVS, Atom, Xilinx ISE, Keil uVision, Autodesk Inventor."
+		}
+}
