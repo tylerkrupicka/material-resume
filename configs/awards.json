@@ -5,6 +5,24 @@
 			"subtitle": "2nd Place",
 			"dates": "Spring 2015",
 			"text": "Developed an autonomous routine for a Parrot AR Drone using Node.js and OpenCV. My team successfully trained a Haar Classifier in order to have the drone detect Jetson's characters."
+		},
+		{
+			"title": "RIT Gobblet AI Tournament",
+			"subtitle": "2nd Place",
+			"dates": "Spring 2014",
+			"text": "My team developed a Java player for the board game 'Gobblet' that placed second in the department AI tournament. Our AI used primarily game strategy and pruning to win."
+		},
+		{
+			"title": "FIRST Tech Challenge Robotics Oregon Championship",
+			"subtitle": "Winning Alliance",
+			"dates": "Spring 2013",
+			"text": "I co-founded and captained my high school's FTC team. My senior year we were in the winning alliance at the Oregon state championship and progressed to the world championships in St. Louis."
+		},
+		{
+			"title": "FIRST Tech Challenge Robotics Nevada Championship",
+			"subtitle": "Inspire Award",
+			"dates": "Spring 2013",
+			"text": "I co-founded and captained my high school's FTC team. My senior year we made a trip to Nevada where we were a team captain in the finals and won the inspire award."
 		}
 	]
 }

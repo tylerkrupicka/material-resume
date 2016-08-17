@@ -3,5 +3,19 @@
     "color": "#1E88E5",
     "favicon": "http://tylerkrupicka.com/images/favicon.png",
     "subtitle": "Engineer &amp; Software Developer",
-    "title": "Tyler Krupicka"
+    "title": "Tyler Krupicka",
+	"icons": [
+		{
+			"id": "circlegithubalt",
+			"url": "http://github.com/tylerkrupicka"
+		},
+		{
+			"id": "circleemail",
+			"url": "mailto:site@tylerkrupicka.com"
+		},
+		{
+			"id": "circlelinkedin",
+			"url": "http://linkedin.com/in/tylerkrupicka"
+		}
+	]
 }

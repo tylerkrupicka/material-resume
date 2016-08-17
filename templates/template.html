@@ -18,6 +18,11 @@
 					<h1>{{ title }}</h1>
 					<h2 id="subtitle">{{ subtitle }}</h4>
 				</div>
+				<div>
+					{% for icon in icons %}
+					<a href='{{ icon.url }}' class='symbol' title='{{ icon.id }}'></a>
+					{% endfor %}
+				</div>
 			</div>
 	</div>
 
@@ -60,6 +65,12 @@
 				<b>{{ project.title }}:</b> {{ project.description }}
 				<div class="card-hidden">
 					<div class="card-list-text">{{ project.text }}</div>
+					{% if project.uses is defined %}
+					<br />
+					<p>
+						<b>Uses: </b> {{ project.uses }}
+					</p>
+					{% endif %}
 					{% for button in project.buttons %}
 					<a class="card-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
 					{% endfor %}
@@ -85,7 +96,7 @@
 			<div class="card-title">Activites</div>
 			{% for activity in activities %}
 			<div class="card-list-element no_select small">
-				<b>{{ activity.title }}:</b> {{ activity.description }}
+				<b class="no_select">{{ activity.title }}:</b> {{ activity.description }}
 			</div>
 			{% endfor %}
 		</div>
