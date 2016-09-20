@@ -14,6 +14,6 @@ This software is licenced under the Mozilla Licence 2.0. There is also a small f
 
 ### Acknowledgements 
 
-While I wrote most of the HTML and CSS for this site while only using the material design documentation as referance, I did use [Ruddy's StackOverflow Material Ripple](http://stackoverflow.com/questions/30074246/how-to-create-ripple-effect-on-click-material-design) as a basis for the ripple effect. 
+While I wrote most of the HTML and CSS for this site while only using the material design documentation as reference, I did use [Ruddy's StackOverflow Material Ripple](http://stackoverflow.com/questions/30074246/how-to-create-ripple-effect-on-click-material-design) as a basis for the ripple effect. 
 
 I also based the header design off of João Piedade's [awesome site](http://jpiedade.com/).
